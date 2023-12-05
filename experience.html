@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .header {
+            background-color: #6c22b1;
+            color: white;
+            padding: 5px;
+            text-align: left;  
+        } 
+        
+       #left {
+            display: flex;
+            align-items: center;
+            font-size: 10px;
+       }
+       .nav {
+            float: right;
+            padding: 7px;
+       }
+
+        .nav img {
+            height: 35px;
+            width: auto;
+            margin-right: 10px;
+            vertical-align: right;  
+        }
+
+        .experience-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            list-style: none;
+            margin: 0;
+        }
+
+        .experience-item {
+            margin: 15px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 300px; /* Updated maximum width */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .experience-item h2{
+            color:#0f3675;
+        }
+       span {
+            color: #4285f4;
+       }
+        .experience-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            max-width: 200px; /* Updated maximum width for images */
+        }
+        .more-info {
+            margin-top: 10px;
+        }
+
+        #logo {
+            margin-left: 5px; 
+            margin-right: 20px;
+            height: auto;
+            width: 20px;
+        }
+
+        .experience-item h2,
+        .experience-item p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="index.html">
+                <img src="/briefcase.png" alt="Certificate Logo">
+            </a>
+        </div>
+        <div id="left">
+            <a href="about.html"><img src="/arrow.png" alt="" id="logo"></a>
+            <h1>Experience</h1>
+        </div>
+    </div>
+    <ul class="experience-list">
+        <li class="experience-item">
+            <h2>Web development Internship</h2>
+            <p>OctaNet Services Pvt Ltd. Internship</p>
+            <a href="/octanet.jpg"><img src="\octanet.jpg" alt="Certificate 1"></a>
+            <span class="more-info">More Info</span>
+            <div class="extra-details">
+                <p>Nov 2023 - Dec 2023</p>
+                <p>Skills: Html & CSS, JavaScript</p>
+            </div>
+        </li>
+        <li class="experience-item">
+            <h2>Java Development Internship</h2>
+            <p>Alfido Tech · Internship</p>
+            <a href="/alfido.jpg"><img src="\alfido.jpg" alt="Certificate 2"></a>
+            <span class="more-info">More Info</span>
+            <div class="extra-details">
+                <p>Oct 2023 - Nov 2023</p>
+                <p>Skills: Java, Programming, Problem Solving</p>
+            </div>
+        </li>
+        <li class="experience-item">
+            <h2>Web Developement Internship</h2>
+            <p>Bharat Intern</p>
+            <a href="/bharat.jpg"><img src="\bharat.jpg" alt="Certificate 3"></a>
+            <span class="more-info">More Info</span>
+            <div class="extra-details">
+                <p>10.Nov.23 - 10.Dec.23</p>
+                <p>Skills: Html & CSS, JavaScript</p>
+            </div>
+        </li>   
+        
+    </ul>
+</body>
+</html>
